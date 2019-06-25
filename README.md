@@ -16,6 +16,25 @@ Flarebar is fully customizable navigation bar, followed modern material design g
 ![screenshot_20190625-180617](https://user-images.githubusercontent.com/30389552/60099132-b1699d00-9774-11e9-970d-6ac9a6ae5ccf.jpg)After Select
 ![Webp net-resizeimage](https://user-images.githubusercontent.com/30389552/60099227-db22c400-9774-11e9-9eb9-d0d2ee5c0a58.jpg)
 
+## Installation
+Add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Then add the dependency:
+
+```
+dependencies {
+	        implementation 'com.github.vaibhav1929:android-navigation-bar:1.0'
+	}
+
+```
 ## Documentation
 ### STEP 1: Add following code in XML file:
 ```xml
