@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.flarebit.flarebar.MainActivity"
+    android:background="@android:color/holo_blue_light">
+
+    <com.flarebit.flarebarlib.FlareBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Hide/show"
+        android:textColor="@android:color/white"
+        android:id="@+id/check"/>
+
+</FrameLayout>
