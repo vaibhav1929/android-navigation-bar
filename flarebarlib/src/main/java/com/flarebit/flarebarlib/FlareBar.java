@@ -207,6 +207,11 @@ public class FlareBar extends LinearLayout {
         tabLayouts.get(tabIndex).removeViewAt(2);
     }
 
+    public void setTabsTextColor(int textColor){
+        for(TextView txt : tabTexts){
+            txt.setTextColor(textColor);
+        }
+    }
     public void selectTab(int index) {
         selectedIndex = index;
         this.removeAllViews();
